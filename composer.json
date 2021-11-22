@@ -1,0 +1,32 @@
+{
+  "name": "jkbnerad/ares",
+  "description": "",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Jakub Nerad",
+      "email": "jakubnerad@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "phpares\\": "src/"
+    }
+  },
+  "require": {
+    "php": "8.*",
+    "guzzlehttp/guzzle": "^7.0",
+    "ext-dom": "*"
+  },
+  "require-dev": {
+    "phpstan/phpstan": "^1.2",
+    "nette/tester": "^2.4",
+    "roave/security-advisories": "dev-latest"
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "0.1-dev"
+    }
+  }
+}
