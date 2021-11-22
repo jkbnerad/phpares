@@ -2,6 +2,12 @@
 
 PHP knihovna ke stahování informací z ARES (Administrativní registr ekonomických subjektů). 
 
+## Instalace
+
+```bash
+composer require jkbnerad/ares
+```
+
 ## Použití
 
 ```PHP
